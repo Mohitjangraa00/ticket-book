@@ -20,7 +20,9 @@ app.use(
     origin: [
       "http://localhost:3000",
       "http://192.168.1.9:3000",
+      "https://ticket-book-uqu4.onrender.com",
     ],
+    origin: true,
     credentials: true,
   })
 );
