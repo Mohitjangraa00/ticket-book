@@ -12,7 +12,7 @@
  *   const data = await api.post("/trains/book", { trainNo, passengers, ... });
  */
 
-const BASE_URL = "http://localhost:5000/api";
+const BASE_URL = "https://ticket-book-uqu4.onrender.com";
 
 const getToken = () => localStorage.getItem("token");
 
